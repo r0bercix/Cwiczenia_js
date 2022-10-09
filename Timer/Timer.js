@@ -30,7 +30,7 @@ function button() {
         document.getElementById("hours").innerHTML="00";
     }
     else {
-        btn.style.background = "#ff9900";
+        btn.style.background = "#ff9901";
         btn.style.color = "brown";
         document.getElementById("button").value="Stop";
         //uruchomienie();
