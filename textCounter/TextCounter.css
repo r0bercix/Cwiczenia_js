@@ -1,0 +1,34 @@
+body
+{
+    background: rgb(21, 49, 51);
+}
+
+.Text
+{
+    color:white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 8vh;
+    width: 37vw;
+    margin: auto;
+    margin-top: 10vh;
+}
+
+.TextPole
+{
+    background: rgb(196, 182, 182);
+    width:45vw;
+    height:35vh;
+    display: flex;
+    margin: auto;
+}
+
+.Ilosc
+{
+    color:white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 8vh;
+    width: 37vw;
+    margin: auto;
+    margin-top: 10vh;
+   
+}
