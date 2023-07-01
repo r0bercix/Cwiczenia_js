@@ -1,0 +1,56 @@
+<html>
+
+
+<head>
+    <link rel="stylesheet" href="kalkulator.css">
+</head>
+
+
+<body>
+
+<div class="border">
+
+
+    <div class="inside">
+
+        <input type="text" id="text" class="text" disabled>
+        <div class="insideButtons">
+
+            <input type="button" value="1" id="NumberButton" class="NumberButton" onclick="liczby(1)">
+            <input type="button" value="2" id="NumberButton" class="NumberButton" onclick="liczby(2)">
+            <input type="button" value="3" id="NumberButton" class="NumberButton" onclick="liczby(3)">
+            <input type="button" value="4" id="NumberButton" class="NumberButton" onclick="liczby(4)">
+            <input type="button" value="5" id="NumberButton" class="NumberButton" onclick="liczby(5)">  
+            <input type="button" value="6" id="NumberButton" class="NumberButton" onclick="liczby(6)">
+            <input type="button" value="7" id="NumberButton" class="NumberButton" onclick="liczby(7)">
+            <input type="button" value="8" id="NumberButton" class="NumberButton" onclick="liczby(8)">
+            <input type="button" value="9" id="NumberButton" class="NumberButton" onclick="liczby(9)">
+            
+            
+
+        </div>
+
+        <div class="actions">
+
+            <input type="button" value="+" id="NumberButton2" class="NumberButton2" onclick="dzialania('+')">
+            <input type="button" value="-" id="NumberButton2" class="NumberButton2" onclick="dzialania('-')">
+            <input type="button" value="x" id="NumberButton2" class="NumberButton2" onclick="dzialania('x')">
+            <input type="button" value=":" id="NumberButton2" class="NumberButton2" onclick="dzialania(':')">
+            <input type="button" value="=" id="NumberButton2" class="NumberButton2" onclick="wynik()">
+            <input type="button" value="C" id="NumberButton2" class="ClearButton" onclick="czysc('C')">
+        </div>
+
+    </div>
+
+
+
+
+</div>
+
+
+<script src="kalkulator.js"></script>
+
+</body>
+
+
+</html>

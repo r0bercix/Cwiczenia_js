@@ -1,0 +1,113 @@
+body
+{
+    background: rgb(153, 61, 61);
+}
+
+.border
+{
+
+  
+    width:25vw;
+    height: 50vh;
+    margin: auto;
+    padding-top: 5vh;
+   padding-right: 2.5vw;
+   border: 12px solid rgb(126, 123, 123) ;
+   border-radius: 25px;
+   background: lightgray;
+   box-shadow: 0.7px 10px;
+   
+}
+
+.text
+{
+    background: rgb(146, 136, 136);
+    border: lightgray;
+    margin:  auto 4.5vw;
+   text-align: end;
+   width:20vw;
+   height: 7vh;
+   display: block;
+   font-size: 5vh;
+   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   color:black;
+   
+}
+
+.insideButtons
+{
+    
+    width:16vw;
+    height: 30vh;
+   margin: auto;
+    padding-top: 5vh;
+  
+}
+
+.NumberButton
+{
+    
+    width:5vw;
+    height: 9vh;
+    margin: auto;
+    margin-bottom:2.8vh;
+    margin-left:0.1vw;
+    border: 1.5px solid rgb(126, 123, 123) ;
+    box-shadow: 0.2px 2px;
+    border-radius: 15px;
+}
+
+.NumberButton:active
+{
+    
+    transform: translateY(2px);
+    box-shadow: 0px 0px;
+      
+}
+
+
+.actions
+{
+    
+    width: 4vw;
+    height: 29vh;
+   float: right;
+   margin-top: -30vh;
+   
+   
+}
+
+.NumberButton2
+{
+    width: 4vw;
+    height: 6vh;
+    margin-bottom:0.7vh;
+    border: 1.5px solid rgb(126, 123, 123) ;
+    box-shadow: 0.2px 2px;
+    border-radius: 15px;
+}
+
+.NumberButton2:active
+{
+    
+    transform: translateY(2px);
+    box-shadow: 0px 0px;
+
+}
+
+.ClearButton
+{
+    width: 4vw;
+    height: 3.5vh;
+    margin-bottom:0.7vh;
+    border: 1.5px solid rgb(126, 123, 123) ;
+    box-shadow: 0.7px 3px;
+    border-radius: 15px;
+}
+
+.ClearButton:active
+{
+    
+    transform: translateY(2px);
+    box-shadow: 0px 0px;
+}
